@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pizzaria Exemplo</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Cardápio</a></li>
+				<li><a href="#">Contato</a></li>
+			</ul>
+		</nav>
+		<h1>Pizzaria Exemplo</h1>
+	</header>
+	<main>
+		<section id="destaque">
+			<h2>Pizza do mês</h2>
+			<img src="pizza-destaque.jpg" alt="Pizza do mês">
+			<p>Experimente a nossa deliciosa pizza de calabresa com muçarela, cebola e pimentão!</p>
+			<button>Peça agora!</button>
+		</section>
+		<section id="cardapio">
+			<h2>Cardápio</h2>
+			<ul>
+				<li>
+					<h3>Margherita</h3>
+					<p>Muçarela, tomate e manjericão.</p>
+					<span>R$ 25,00</span>
+					<button>Adicionar ao carrinho</button>
+				</li>
+				<li>
+					<h3>Calabresa</h3>
+					<p>Calabresa, muçarela, cebola e pimentão.</p>
+					<span>R$ 28,00</span>
+					<button>Adicionar ao carrinho</button>
+				</li>
+				<li>
+					<h3>Frango com catupiry</h3>
+					<p>Frango desfiado, muçarela e catupiry.</p>
+					<span>R$ 30,00</span>
+					<button>Adicionar ao carrinho</button>
+				</li>
+			</ul>
+		</section>
+	</main>
+	<script src="scripts.js"></script>
+        <div id="carrinho">
+        <h2>Carrinho de compras</h2>
+        <ul id="carrinho-lista">
+          <!-- itens do carrinho serão adicionados aqui -->
+        </ul>
+        <p>Total: R$ <span id="carrinho-total">0.00</span></p>
+        </div>
+        <script src="myscript.js"></script>
+</body>
+   </html>

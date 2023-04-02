@@ -1,0 +1,150 @@
+/* Estilos gerais */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* Estilos de cabeçalho */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #f9f9f9;
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+/* Estilos de destaque */
+#destaque {
+    background-color: #fff;
+    padding: 50px;
+    text-align: center;
+}
+
+#destaque h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+#destaque img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+#destaque p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#destaque button {
+    background-color: #333;
+    color: #fff;
+    font-size: 24px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#destaque button:hover {
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Estilos de cardápio */
+#cardapio {
+    background-color: #f9f9f9;
+    padding: 50px;
+    text-align: center;
+}
+
+#cardapio h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+#cardapio ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#cardapio li {
+    width: 300px;
+    margin: 20px;
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+#cardapio li h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#cardapio li p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+#cardapio li span {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    display: block;
+}
+
+#cardapio li button {
+    background-color: #333;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#cardapio li button:hover {
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Estilos de rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+}
